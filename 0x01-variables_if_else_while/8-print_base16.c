@@ -14,13 +14,13 @@ int main(void)
 		putchar(digit);
 		if (digit == '9')
 		{
-																		digit = 'a';
-																		for (; digit <= 'f'; digit++)
+			digit = 'a';
+			for (; digit <= 'f'; digit++)
 			{
-																			putchar(digit);
-																																	}
-																		break;
-																	}
+			putchar(digit);
+																								}
+			break;
+		}
 	}
 	putchar('\n');
 	return (0);
