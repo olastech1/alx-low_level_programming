@@ -22,7 +22,7 @@ int main(void)
 			if (digit1 / 10 != 9 || digit1 % 10 != 8)
 																								{
 																									putchar(44);
-																									putchar(32);														
+																									putchar(32);
 																								}
 		}
 	}
