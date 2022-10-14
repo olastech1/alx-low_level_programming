@@ -1,13 +1,18 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <string.h>
+
 /**
- * * main - main function in the task
+ * *main - Main function of my project
  * *
  * *
- * *Return: return 1
+ * *Return: return 0 everytime
  * */
 int main(void)
 {
-		write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-			return (1);
+
+		char displayed[52];
+
+			strcpy(displayed, "\"Programming is like building a multilingual puzzle");
+				puts(displayed);
+					return (0);
 }
