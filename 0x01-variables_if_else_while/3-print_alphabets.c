@@ -19,7 +19,7 @@ int main(void)
 			for (; letter <= 'Z'; letter++)
 			{
 				putchar(letter);
-													}
+			}
 			break;	
 		}
 
