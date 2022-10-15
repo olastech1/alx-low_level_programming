@@ -17,11 +17,12 @@ int main(void)
 		{
 			letter = 'A';
 			for (; letter <= 'Z'; letter++)
-																								{
-																									putchar(letter);
-																								}
-																								break;
+			{
+				putchar(letter);
+													}
+													break;
 		
+
 		}
 	
 	}
