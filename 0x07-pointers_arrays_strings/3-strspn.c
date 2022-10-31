@@ -20,12 +20,10 @@ unsigned int _strspn(char *s, char *accept)
 			if (accept[i] == *s)
 			{
 				bytes++;
-				break;
-			
+				break;	
 			}
 			else if ((accept[i + 1]) == '\0')
 				return (bytes);
-		
 		}
 		s++;
 	}
