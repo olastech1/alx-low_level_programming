@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 	
 	if (!(*s))
 		return (1);
-	
+
 	return (check_palindrome(s, len, index));
 }
 
@@ -32,7 +32,7 @@ int find_strlen(char *s)
 		len++;
 		len += find_strlen(s + len);
 	}
-	
+
 	return (len);
 }
 
@@ -52,6 +52,6 @@ int check_palindrome(char *s, int len, int index)
 	
 	if (s[index] == s[len - index - 1])
 		return (check_palindrome(s, len, index + 1));
-	
+
 	return (0);
 }
